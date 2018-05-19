@@ -1,0 +1,10 @@
+C:\Users\Anna Marie\source\repos\Gas_Calculator\Gas_Calculator\bin\Debug\Gas_Calculator.exe.config
+C:\Users\Anna Marie\source\repos\Gas_Calculator\Gas_Calculator\bin\Debug\Gas_Calculator.exe
+C:\Users\Anna Marie\source\repos\Gas_Calculator\Gas_Calculator\bin\Debug\Gas_Calculator.pdb
+C:\Users\Anna Marie\source\repos\Gas_Calculator\Gas_Calculator\obj\Debug\Gas_Calculator.csprojAssemblyReference.cache
+C:\Users\Anna Marie\source\repos\Gas_Calculator\Gas_Calculator\obj\Debug\Gas_Calculator.Form1.resources
+C:\Users\Anna Marie\source\repos\Gas_Calculator\Gas_Calculator\obj\Debug\Gas_Calculator.Properties.Resources.resources
+C:\Users\Anna Marie\source\repos\Gas_Calculator\Gas_Calculator\obj\Debug\Gas_Calculator.csproj.GenerateResource.cache
+C:\Users\Anna Marie\source\repos\Gas_Calculator\Gas_Calculator\obj\Debug\Gas_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Anna Marie\source\repos\Gas_Calculator\Gas_Calculator\obj\Debug\Gas_Calculator.exe
+C:\Users\Anna Marie\source\repos\Gas_Calculator\Gas_Calculator\obj\Debug\Gas_Calculator.pdb

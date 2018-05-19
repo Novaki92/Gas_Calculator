@@ -20,8 +20,8 @@ namespace Gas_Calculator
         private void button1_Click(object sender, EventArgs e)
         {
             int mpg = 1;
-            int miles = 1;
-            decimal gas = 1;
+            int miles = 0;
+            decimal gas = 0;
 
             try
             {
@@ -41,7 +41,14 @@ namespace Gas_Calculator
             }
 
             lbl_result.Text = "$" + Convert.ToString(price);
-            lbl_result.Visible = true;
+
+            if (mpg == 1 || miles == 0 || gas == 0)
+            {
+                lbl_result.Visible = false;
+            } else
+            {
+                lbl_result.Visible = true;
+            }
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)

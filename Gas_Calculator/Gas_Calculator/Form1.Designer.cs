@@ -79,7 +79,7 @@
             this.button1.Location = new System.Drawing.Point(95, 115);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
+            this.button1.TabIndex = 4;
             this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -118,7 +118,7 @@
             this.cb_trip.Location = new System.Drawing.Point(93, 92);
             this.cb_trip.Name = "cb_trip";
             this.cb_trip.Size = new System.Drawing.Size(79, 17);
-            this.cb_trip.TabIndex = 8;
+            this.cb_trip.TabIndex = 3;
             this.cb_trip.Text = "Round Trip";
             this.cb_trip.UseVisualStyleBackColor = true;
             // 
@@ -142,6 +142,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = " Gas Calculator";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

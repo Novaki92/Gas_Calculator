@@ -43,5 +43,13 @@ namespace Gas_Calculator
             lbl_result.Text = "$" + Convert.ToString(price);
             lbl_result.Visible = true;
         }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Return)
+            {
+                button1_Click(sender, e);
+            }
+        }
     }
 }

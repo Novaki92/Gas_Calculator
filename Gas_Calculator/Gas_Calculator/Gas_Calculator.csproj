@@ -85,7 +85,6 @@
   <ItemGroup>
     <Content Include="Icons8-Ios7-City-Gas-Station.ico" />
     <None Include="Resources\Icons8-Ios7-City-Gas-Station.ico" />
-    <None Include="Resources\Icon Main.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

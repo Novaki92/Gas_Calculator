@@ -24,6 +24,10 @@ namespace Gas_Calculator
             decimal gas = Convert.ToDecimal(tb_Gas.Text);
 
             decimal price = (miles / mpg) * gas;
+            if (cb_trip.Checked)
+            {
+                price *= 2;
+            }
 
             lbl_result.Text = "$" + Convert.ToString(price);
             lbl_result.Visible = true;

@@ -37,11 +37,12 @@
             this.lbl_result = new System.Windows.Forms.Label();
             this.tb_Gas = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.cb_trip = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // tb_MPG
             // 
-            this.tb_MPG.Location = new System.Drawing.Point(47, 26);
+            this.tb_MPG.Location = new System.Drawing.Point(47, 14);
             this.tb_MPG.Name = "tb_MPG";
             this.tb_MPG.Size = new System.Drawing.Size(100, 20);
             this.tb_MPG.TabIndex = 0;
@@ -49,7 +50,7 @@
             // 
             // tb_Miles
             // 
-            this.tb_Miles.Location = new System.Drawing.Point(47, 52);
+            this.tb_Miles.Location = new System.Drawing.Point(47, 40);
             this.tb_Miles.Name = "tb_Miles";
             this.tb_Miles.Size = new System.Drawing.Size(100, 20);
             this.tb_Miles.TabIndex = 1;
@@ -58,7 +59,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(165, 29);
+            this.label1.Location = new System.Drawing.Point(165, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 13);
             this.label1.TabIndex = 2;
@@ -67,7 +68,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(165, 55);
+            this.label2.Location = new System.Drawing.Point(165, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(31, 13);
             this.label2.TabIndex = 3;
@@ -75,7 +76,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(95, 104);
+            this.button1.Location = new System.Drawing.Point(95, 115);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -86,7 +87,7 @@
             // lbl_result
             // 
             this.lbl_result.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_result.Location = new System.Drawing.Point(82, 130);
+            this.lbl_result.Location = new System.Drawing.Point(82, 141);
             this.lbl_result.Name = "lbl_result";
             this.lbl_result.Size = new System.Drawing.Size(100, 23);
             this.lbl_result.TabIndex = 5;
@@ -96,7 +97,7 @@
             // 
             // tb_Gas
             // 
-            this.tb_Gas.Location = new System.Drawing.Point(47, 78);
+            this.tb_Gas.Location = new System.Drawing.Point(47, 66);
             this.tb_Gas.Name = "tb_Gas";
             this.tb_Gas.Size = new System.Drawing.Size(100, 20);
             this.tb_Gas.TabIndex = 2;
@@ -105,17 +106,28 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(165, 81);
+            this.label3.Location = new System.Drawing.Point(165, 69);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "Gas Price";
+            // 
+            // cb_trip
+            // 
+            this.cb_trip.AutoSize = true;
+            this.cb_trip.Location = new System.Drawing.Point(93, 92);
+            this.cb_trip.Name = "cb_trip";
+            this.cb_trip.Size = new System.Drawing.Size(79, 17);
+            this.cb_trip.TabIndex = 8;
+            this.cb_trip.Text = "Round Trip";
+            this.cb_trip.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(265, 179);
+            this.Controls.Add(this.cb_trip);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tb_Gas);
             this.Controls.Add(this.lbl_result);
@@ -144,6 +156,7 @@
         private System.Windows.Forms.Label lbl_result;
         private System.Windows.Forms.TextBox tb_Gas;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox cb_trip;
     }
 }
 

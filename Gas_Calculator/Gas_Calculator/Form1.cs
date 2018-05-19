@@ -19,9 +19,20 @@ namespace Gas_Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int mpg = Convert.ToInt16(tb_MPG.Text);
-            int miles = Convert.ToInt16(tb_Miles.Text);
-            decimal gas = Convert.ToDecimal(tb_Gas.Text);
+            int mpg = 1;
+            int miles = 1;
+            decimal gas = 1;
+
+            try
+            {
+                mpg = Convert.ToInt16(tb_MPG.Text);
+                miles = Convert.ToInt16(tb_Miles.Text);
+                gas = Convert.ToDecimal(tb_Gas.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Enter a valid number");
+            }
 
             decimal price = (miles / mpg) * gas;
             if (cb_trip.Checked)

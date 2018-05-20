@@ -38,7 +38,7 @@ namespace Gas_Calculator
             if (cb_trip.Checked){price *= 2;}
 
             //label
-            lbl_result.Text = "$" + Convert.ToString(price);
+            lbl_result.Text = price.ToString("C");
             if (mpg == 1 || miles == 0 || gas == 0){
                 lbl_result.Visible = false;
             } else{
